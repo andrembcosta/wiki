@@ -25,7 +25,7 @@ SECRET_KEY = '%710m*zic)#0u((qugw#1@e^ty!c)9j04956v@ly(_86n$rg)h'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -120,4 +120,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-CSRF_TRUSTED_ORIGINS = ['https://ominous-potato-7rj5wxpp4g9hx9vg-8000.app.github.dev', 'https://ominous-potato-7rj5wxpp4g9hx9vg-8000.preview.app.github.dev', "http://localhost:8000", "https://localhost:8000"]
+CSRF_TRUSTED_ORIGINS = ['https://ominous-potato-7rj5wxpp4g9hx9vg-8000.app.github.dev', 'https://ominous-potato-7rj5wxpp4g9hx9vg-8000.preview.app.github.dev', "http://localhost:8000", "https://localhost:8000", "https://wiki-418401.rj.r.appspot.com"]
